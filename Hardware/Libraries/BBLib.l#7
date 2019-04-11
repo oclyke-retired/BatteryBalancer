@@ -331,6 +331,13 @@
 <wire x1="27.94" y1="-2.54" x2="27.94" y2="73.66" width="0.254" layer="94"/>
 <wire x1="27.94" y1="73.66" x2="0" y2="73.66" width="0.254" layer="94"/>
 </symbol>
+<symbol name="TEST-POINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SINGLECELL" prefix="U">
@@ -338,11 +345,7 @@
 <gate name="G$1" symbol="BATTERY" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1X02_SMD_0.1IN">
-<connects>
-<connect gate="G$1" pin="+" pad="2"/>
-<connect gate="G$1" pin="-" pad="1"/>
-</connects>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -404,6 +407,18 @@
 <connect gate="G$1" pin="VREG" pad="18"/>
 <connect gate="G$1" pin="VSS" pad="17"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TAP_POINT" prefix="U">
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X02_SMD_0.1IN">
 <technologies>
 <technology name=""/>
 </technologies>
