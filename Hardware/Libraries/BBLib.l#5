@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -323,6 +323,18 @@
 <pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796" stop="no"/>
 <text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<polygon width="0.1524" layer="29">
+<vertex x="-4.7752" y="0" curve="-90"/>
+<vertex x="-3.81" y="0.9652" curve="-90"/>
+<vertex x="-2.8448" y="0" curve="-90"/>
+<vertex x="-3.81" y="-0.9652" curve="-90"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="2.8448" y="0" curve="-90"/>
+<vertex x="3.81" y="0.9652" curve="-90"/>
+<vertex x="4.7752" y="0" curve="-90"/>
+<vertex x="3.81" y="-0.9652" curve="-90"/>
+</polygon>
 </package>
 </packages>
 <symbols>

@@ -549,7 +549,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="NTC_STOP_ONE_SIDE">
+<deviceset name="NTC_STOP_ONE_SIDE" prefix="R">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
