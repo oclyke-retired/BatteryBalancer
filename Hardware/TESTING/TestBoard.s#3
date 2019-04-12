@@ -5205,13 +5205,13 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="U7" library="BBLib" deviceset="SINGLECELL" device="" value=""/>
 <part name="U8" library="BBLib" deviceset="SINGLECELL" device="" value=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
-<part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_NO_POP"/>
-<part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
+<part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5571,18 +5571,12 @@ goes low. Reset has a pullup to VCC</text>
 <attribute name="VALUE" x="231.14" y="93.726" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="231.14" y="62.992" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="215.9" y="91.44">
-<attribute name="VALUE" x="215.9" y="94.234" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="GND5" gate="1" x="218.44" y="58.42">
 <attribute name="VALUE" x="215.9" y="55.88" size="1.778" layer="96"/>
 </instance>
 <instance part="J2" gate="G$1" x="193.04" y="226.06" rot="R180">
 <attribute name="VALUE" x="198.12" y="235.966" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="198.12" y="215.392" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
-<instance part="SUPPLY14" gate="G$1" x="182.88" y="236.22">
-<attribute name="VALUE" x="182.88" y="239.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND12" gate="1" x="182.88" y="208.28">
 <attribute name="VALUE" x="180.34" y="205.74" size="1.778" layer="96"/>
@@ -5592,6 +5586,12 @@ goes low. Reset has a pullup to VCC</text>
 </instance>
 <instance part="SUPPLY13" gate="G$1" x="218.44" y="91.44">
 <attribute name="VALUE" x="218.44" y="94.234" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY12" gate="G$1" x="182.88" y="236.22">
+<attribute name="VALUE" x="182.88" y="239.014" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY14" gate="G$1" x="215.9" y="91.44">
+<attribute name="VALUE" x="215.9" y="94.234" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -6185,6 +6185,18 @@ goes low. Reset has a pullup to VCC</text>
 <wire x1="182.88" y1="93.98" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
 <junction x="182.88" y="96.52"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="228.6" x2="182.88" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="228.6" x2="182.88" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="J1" gate="J1" pin="2"/>
+<wire x1="220.98" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="86.36" x2="215.9" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
+</segment>
 </net>
 <net name="N$41" class="0">
 <segment>
@@ -6346,18 +6358,6 @@ goes low. Reset has a pullup to VCC</text>
 <junction x="121.92" y="175.26"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="121.92" y1="167.64" x2="127" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="J1" pin="2"/>
-<wire x1="220.98" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="86.36" x2="215.9" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="G$1" pin="5V"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="228.6" x2="182.88" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="228.6" x2="182.88" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="SUPPLY14" gate="G$1" pin="5V"/>
 </segment>
 </net>
 <net name="N$23" class="0">
