@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2494,13 +2494,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="90.17" y="41.91" size="1.778" layer="25" rot="R90"/>
 <attribute name="VALUE" x="101.6" y="41.91" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="U4" library="BBLib" package="1X01_SMD_0.1IN" value="TAP_POINT" x="95.25" y="43.18" rot="R90">
-<attribute name="NAME" x="90.17" y="39.37" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="101.6" y="39.37" size="1.778" layer="27" rot="R90"/>
+<element name="U4" library="BBLib" package="1X01_SMD_0.1IN" value="TAP_POINT" x="95.25" y="42.68" rot="R90">
+<attribute name="NAME" x="90.17" y="38.87" size="1.778" layer="25" rot="R90"/>
+<attribute name="VALUE" x="101.6" y="38.87" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="U3" library="BBLib" package="1X01_SMD_0.1IN" value="TAP_POINT" x="95.25" y="40.14" rot="R90">
-<attribute name="NAME" x="90.17" y="36.33" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="101.6" y="36.33" size="1.778" layer="27" rot="R90"/>
+<element name="U3" library="BBLib" package="1X01_SMD_0.1IN" value="TAP_POINT" x="95.2246" y="39.9572" rot="R90">
+<attribute name="NAME" x="90.1446" y="36.1472" size="1.778" layer="25" rot="R90"/>
+<attribute name="VALUE" x="101.5746" y="36.1472" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="U2" library="BBLib" package="1X01_SMD_0.1IN" value="TAP_POINT" x="95.25" y="37.1" rot="R90">
 <attribute name="NAME" x="90.17" y="33.29" size="1.778" layer="25" rot="R90"/>
@@ -2966,8 +2966,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="86.3273375" y1="40.4076" x2="86.3046" y2="40.4076" width="0.508" layer="1"/>
 <wire x1="86.3046" y1="40.4076" x2="85.709" y2="39.812" width="0.508" layer="1"/>
 <wire x1="88.649" y1="40.513" x2="86.4327375" y2="40.513" width="0.508" layer="1"/>
-<wire x1="95.25" y1="40.14" x2="92.324" y2="40.14" width="1.016" layer="1"/>
-<wire x1="92.324" y1="40.14" x2="90.3" y2="42.164" width="1.016" layer="1"/>
+<wire x1="95.2246" y1="39.9572" x2="92.5068" y2="39.9572" width="1.016" layer="1"/>
+<wire x1="92.5068" y1="39.9572" x2="90.3" y2="42.164" width="1.016" layer="1"/>
 <via x="81.28" y="38.227" extent="1-16" drill="0.381"/>
 <wire x1="81.114" y1="38.393" x2="80.264" y2="38.393" width="0.508" layer="1"/>
 <wire x1="85.709" y1="39.812" x2="83.5953" y2="39.812" width="0.508" layer="1"/>
@@ -2992,8 +2992,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="86.3273375" y1="43.7096" x2="86.3046" y2="43.7096" width="0.508" layer="1"/>
 <wire x1="86.3046" y1="43.7096" x2="85.709" y2="43.114" width="0.508" layer="1"/>
 <wire x1="88.522" y1="43.815" x2="86.4327375" y2="43.815" width="0.508" layer="1"/>
-<wire x1="95.25" y1="43.18" x2="92.459" y2="43.18" width="1.016" layer="1"/>
-<wire x1="92.459" y1="43.18" x2="90.173" y2="45.466" width="1.016" layer="1"/>
+<wire x1="95.25" y1="42.68" x2="92.959" y2="42.68" width="1.016" layer="1"/>
+<wire x1="92.959" y1="42.68" x2="90.173" y2="45.466" width="1.016" layer="1"/>
 <wire x1="85.709" y1="43.114" x2="83.632" y2="43.114" width="0.508" layer="1"/>
 <wire x1="83.632" y1="43.114" x2="83.566" y2="43.18" width="0.508" layer="1"/>
 <via x="83.566" y="43.18" extent="1-16" drill="0.381"/>

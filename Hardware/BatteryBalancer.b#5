@@ -488,22 +488,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="1" x="0" y="0" dx="1.778" dy="7.62" layer="1" roundness="100"/>
 <text x="-3.81" y="5.08" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-6.35" size="1.778" layer="27">&gt;VALUE</text>
-<polygon width="0.0508" layer="51">
-<vertex x="1.651" y="-2.921" curve="90"/>
-<vertex x="2.54" y="-3.81" curve="90"/>
-<vertex x="3.429" y="-2.921"/>
-<vertex x="3.429" y="2.921" curve="90"/>
-<vertex x="2.54" y="3.81" curve="90"/>
-<vertex x="1.651" y="2.921"/>
-</polygon>
-<polygon width="0.0508" layer="51">
-<vertex x="-3.429" y="-2.921" curve="90"/>
-<vertex x="-2.54" y="-3.81" curve="90"/>
-<vertex x="-1.651" y="-2.921"/>
-<vertex x="-1.651" y="2.921" curve="90"/>
-<vertex x="-2.54" y="3.81" curve="90"/>
-<vertex x="-3.429" y="2.921"/>
-</polygon>
 </package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
@@ -2812,7 +2796,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="16.002" y="48.895" extent="1-16" drill="0.381"/>
 <via x="42.799" y="49.022" extent="1-16" drill="0.381"/>
 <via x="66.167" y="48.895" extent="1-16" drill="0.381"/>
-<via x="90.932" y="48.895" extent="1-16" drill="0.381"/>
+<via x="91.182" y="49.395" extent="1-16" drill="0.381"/>
 <polygon width="0.2032" layer="1" isolate="0.1524" rank="2">
 <vertex x="6.35" y="30"/>
 <vertex x="6.35" y="51"/>
@@ -2898,20 +2882,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="71.755" y="34.671" extent="1-16" drill="0.381"/>
 <via x="73.406" y="39.497" extent="1-16" drill="0.381"/>
 <via x="87.122" y="47.371" extent="1-16" drill="0.381"/>
-<via x="91.059" y="47.117" extent="1-16" drill="0.381"/>
-<via x="99.187" y="46.99" extent="1-16" drill="0.381"/>
+<via x="90.059" y="47.367" extent="1-16" drill="0.381"/>
 <via x="99.187" y="44.45" extent="1-16" drill="0.381"/>
 <via x="7.747" y="48.895" extent="1-16" drill="0.381"/>
 <via x="77.089" y="48.26" extent="1-16" drill="0.381"/>
 <via x="75.565" y="33.782" extent="1-16" drill="0.381"/>
-<via x="94.615" y="48.895" extent="1-16" drill="0.381"/>
-<via x="92.71" y="47.625" extent="1-16" drill="0.381"/>
-<via x="96.52" y="47.625" extent="1-16" drill="0.381"/>
-<via x="98.425" y="48.895" extent="1-16" drill="0.381"/>
-<via x="94.615" y="33.655" extent="1-16" drill="0.381"/>
-<via x="92.71" y="31.75" extent="1-16" drill="0.381"/>
-<via x="96.52" y="31.75" extent="1-16" drill="0.381"/>
-<via x="98.425" y="33.655" extent="1-16" drill="0.381"/>
+<via x="95.365" y="49.395" extent="1-16" drill="0.381"/>
+<via x="99.175" y="49.395" extent="1-16" drill="0.381"/>
+<via x="99.115" y="32.905" extent="1-16" drill="0.381"/>
+<via x="90.21" y="31" extent="1-16" drill="0.381"/>
+<via x="91.52" y="32.75" extent="1-16" drill="0.381"/>
+<via x="90.175" y="37.155" extent="1-16" drill="0.381"/>
 <via x="64.135" y="46.482" extent="1-16" drill="0.381"/>
 <via x="65.659" y="33.02" extent="1-16" drill="0.381"/>
 <via x="68.707" y="35.0774" extent="1-16" drill="0.381"/>

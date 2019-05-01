@@ -3572,23 +3572,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="U5" library="BBLib" package="1X01_SMD_0.1IN" value="TAP_POINT" x="95.25" y="45.72" rot="R90">
 <attribute name="NAME" x="90.17" y="41.91" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="101.6" y="41.91" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="U4" library="BBLib" package="1X01_SMD_0.1IN" value="TAP_POINT" x="95.25" y="42.68" rot="R90">
 <attribute name="NAME" x="90.17" y="38.87" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="101.6" y="38.87" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="U3" library="BBLib" package="1X01_SMD_0.1IN" value="TAP_POINT" x="95.2246" y="39.9572" rot="R90">
 <attribute name="NAME" x="90.1446" y="36.1472" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="101.5746" y="36.1472" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="U2" library="BBLib" package="1X01_SMD_0.1IN" value="TAP_POINT" x="95.25" y="37.1" rot="R90">
 <attribute name="NAME" x="90.17" y="33.29" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="101.6" y="33.29" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="U1" library="BBLib" package="1X01_SMD_0.1IN" value="TAP_POINT" x="95.25" y="34.06" rot="R90">
 <attribute name="NAME" x="90.17" y="30.25" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="101.6" y="30.25" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="D2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="TH" x="45.593" y="38.735" rot="R180">
 <attribute name="NAME" x="47.244" y="38.735" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
