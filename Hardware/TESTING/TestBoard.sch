@@ -1159,123 +1159,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </device>
 </devices>
 </deviceset>
-<deviceset name="1MOHM" prefix="R">
-<description>&lt;h3&gt;1MΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09329"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09329"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09329"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09329"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-1/4W-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-07868"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/6W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09559"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/6W-5%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09559"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ-1/6W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09559"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/6W-5%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09559"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="330KOHM" prefix="R">
 <description>&lt;h3&gt;330kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -1444,6 +1327,38 @@ We've spent an enormous amount of time creating and checking these footprints an
 <technology name="">
 <attribute name="PROD_ID" value="RES-14342" constant="no"/>
 <attribute name="VALUE" value="1k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10MOHM" prefix="R">
+<description>RES-09327</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09327"/>
+<attribute name="VALUE" value="10M"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-1/10W-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08283"/>
+<attribute name="VALUE" value="10M"/>
 </technology>
 </technologies>
 </device>
@@ -5505,10 +5420,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U3" library="BBLib" deviceset="TAP_POINT" device=""/>
 <part name="U2" library="BBLib" deviceset="TAP_POINT" device=""/>
 <part name="U1" library="BBLib" deviceset="TAP_POINT" device=""/>
-<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MMBZ5233BLT1G" value="TH"/>
+<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MMBZ5233BLT1G" value="TH-12V"/>
 <part name="IC1" library="SparkFun-IC-Amplifiers" deviceset="OPAMP-DUAL" device="U" value="OP-AMP"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1M"/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MMBZ5233BLT1G" value="MATCH"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="330KOHM" device="-0603-1/10W-1%" value="330k"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
@@ -5580,6 +5493,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="330KOHM" device="-0603-1/10W-1%" value="330k"/>
+<part name="R33" library="SparkFun-Resistors" deviceset="10MOHM" device="-0603-1/10W-5%" value="10M"/>
 </parts>
 <sheets>
 <sheet>
@@ -5596,7 +5511,7 @@ so that  the inverting input sees a higher voltage. When
 the battery voltage exceeds V THreshold the THreshold
 Zener diode clamps the inverting input, allowing the non-
 inverting input to be greater, yielding a HIGH voltage output</text>
-<text x="55.88" y="208.28" size="1.27" layer="97">Maybe in the future this could incorporate a 
+<text x="55.88" y="203.2" size="1.27" layer="97">Maybe in the future this could incorporate a 
 Schmitt Trigger to prevent switching too often</text>
 <text x="119.38" y="160.02" size="1.27" layer="97">Cut jumper is using USB-Serial</text>
 <wire x1="114.3" y1="231.14" x2="114.3" y2="220.98" width="0.2032" layer="97" style="shortdash"/>
@@ -5780,20 +5695,12 @@ goes low. Reset has a pullup to VCC</text>
 <attribute name="NAME" x="22.098" y="220.98" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="30.48" y="220.98" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="R10" gate="G$1" x="50.8" y="231.14" rot="R90">
-<attribute name="NAME" x="49.276" y="231.14" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="52.324" y="231.14" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="D1" gate="G$1" x="50.8" y="218.44" rot="R90">
-<attribute name="NAME" x="48.768" y="215.9" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="52.832" y="215.9" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
-</instance>
 <instance part="R15" gate="G$1" x="58.42" y="236.22" rot="R90">
 <attribute name="NAME" x="56.896" y="236.22" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="59.944" y="236.22" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND6" gate="1" x="50.8" y="208.28">
-<attribute name="VALUE" x="48.26" y="205.74" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="50.8" y="203.2">
+<attribute name="VALUE" x="48.26" y="200.66" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="25.4" y="208.28">
 <attribute name="VALUE" x="22.86" y="205.74" size="1.778" layer="96"/>
@@ -6029,6 +5936,11 @@ goes low. Reset has a pullup to VCC</text>
 <instance part="FD2" gate="G$1" x="426.72" y="33.02"/>
 <instance part="FD3" gate="G$1" x="426.72" y="30.48"/>
 <instance part="FD4" gate="G$1" x="429.26" y="30.48"/>
+<instance part="R10" gate="G$1" x="50.8" y="231.14" rot="R90">
+<attribute name="NAME" x="49.276" y="231.14" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="52.324" y="231.14" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R33" gate="G$1" x="50.8" y="215.9" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6109,14 +6021,14 @@ goes low. Reset has a pullup to VCC</text>
 <junction x="154.94" y="91.44"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="50.8" y1="215.9" x2="50.8" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="213.36" x2="58.42" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="210.82" x2="50.8" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="208.28" x2="58.42" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="58.42" y1="213.36" x2="58.42" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="208.28" x2="58.42" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="50.8" y1="213.36" x2="50.8" y2="210.82" width="0.1524" layer="91"/>
-<junction x="50.8" y="213.36"/>
+<wire x1="50.8" y1="208.28" x2="50.8" y2="205.74" width="0.1524" layer="91"/>
+<junction x="50.8" y="208.28"/>
+<pinref part="R33" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G3" pin="P$V-"/>
@@ -6596,11 +6508,6 @@ goes low. Reset has a pullup to VCC</text>
 <pinref part="J1" gate="J1" pin="6"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="!SHDWN"/>
-<wire x1="73.66" y1="165.1" x2="68.58" y2="165.1" width="0.1524" layer="91"/>
-<label x="68.58" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="187.96" y1="223.52" x2="180.34" y2="223.52" width="0.1524" layer="91"/>
 <label x="180.34" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -6689,14 +6596,14 @@ goes low. Reset has a pullup to VCC</text>
 <segment>
 <pinref part="IC1" gate="G1" pin="+IN"/>
 <wire x1="60.96" y1="223.52" x2="50.8" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="223.52" x2="50.8" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="220.98" x2="50.8" y2="223.52" width="0.1524" layer="91"/>
 <junction x="50.8" y="223.52"/>
 <pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="228.6" x2="43.18" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="223.52" x2="50.8" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R33" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CHARGE" class="0">
@@ -6724,6 +6631,11 @@ goes low. Reset has a pullup to VCC</text>
 <wire x1="261.62" y1="200.66" x2="264.16" y2="200.66" width="0.1524" layer="91"/>
 <label x="261.62" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U10" gate="G$1" pin="!SHDWN"/>
+<wire x1="73.66" y1="165.1" x2="68.58" y2="165.1" width="0.1524" layer="91"/>
+<label x="68.58" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="V_BATT" class="0">
 <segment>
@@ -6738,7 +6650,6 @@ goes low. Reset has a pullup to VCC</text>
 <wire x1="25.4" y1="246.38" x2="25.4" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="236.22" x2="50.8" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="243.84" x2="58.42" y2="243.84" width="0.1524" layer="91"/>
@@ -6749,6 +6660,7 @@ goes low. Reset has a pullup to VCC</text>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="238.76" x2="43.18" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="243.84" x2="50.8" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U10" gate="G$1" pin="IN"/>
