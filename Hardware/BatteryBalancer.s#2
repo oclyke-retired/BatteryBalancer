@@ -5293,7 +5293,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U3" library="BBLib" deviceset="TAP_POINT" device=""/>
 <part name="U2" library="BBLib" deviceset="TAP_POINT" device=""/>
 <part name="U1" library="BBLib" deviceset="TAP_POINT" device=""/>
-<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MMBZ5233BLT1G" value="TH"/>
+<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MMBZ5233BLT1G" value="TH-12V"/>
 <part name="IC1" library="SparkFun-IC-Amplifiers" deviceset="OPAMP-DUAL" device="U" value="OP-AMP"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="330KOHM" device="-0603-1/10W-1%" value="330k"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>

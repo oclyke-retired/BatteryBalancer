@@ -6815,7 +6815,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="CAP-13930" x="-41.91" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="30.48" y="27.432" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="D2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="TH" x="99.06" y="33.02">
+<element name="D2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="TH-12V" x="99.06" y="33.02">
 <attribute name="NAME" x="97.409" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-14123" x="124.46" y="-33.02" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="100.711" y="33.02" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>

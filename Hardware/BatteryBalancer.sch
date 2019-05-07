@@ -6557,7 +6557,7 @@ goes low. Reset has a pullup to VCC</text>
 <wire x1="403.86" y1="129.54" x2="419.1" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RESET" class="0">
+<net name="!RESET" class="0">
 <segment>
 <wire x1="307.34" y1="175.26" x2="304.8" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="5"/>

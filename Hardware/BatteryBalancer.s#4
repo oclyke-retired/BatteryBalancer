@@ -1705,22 +1705,6 @@ Switches electronic signals</description>
 <smd name="1" x="0" y="0" dx="1.778" dy="7.62" layer="1" roundness="100"/>
 <text x="-3.81" y="5.08" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-6.35" size="1.778" layer="27">&gt;VALUE</text>
-<polygon width="0.0508" layer="51">
-<vertex x="1.651" y="-2.921" curve="90"/>
-<vertex x="2.54" y="-3.81" curve="90"/>
-<vertex x="3.429" y="-2.921"/>
-<vertex x="3.429" y="2.921" curve="90"/>
-<vertex x="2.54" y="3.81" curve="90"/>
-<vertex x="1.651" y="2.921"/>
-</polygon>
-<polygon width="0.0508" layer="51">
-<vertex x="-3.429" y="-2.921" curve="90"/>
-<vertex x="-2.54" y="-3.81" curve="90"/>
-<vertex x="-1.651" y="-2.921"/>
-<vertex x="-1.651" y="2.921" curve="90"/>
-<vertex x="-2.54" y="3.81" curve="90"/>
-<vertex x="-3.429" y="2.921"/>
-</polygon>
 </package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>

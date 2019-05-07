@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -7094,11 +7094,6 @@ goes low. Reset has a pullup to VCC</text>
 </segment>
 </net>
 <net name="TEST" class="0">
-<segment>
-<pinref part="U12" gate="U1" pin="ADC6"/>
-<wire x1="401.32" y1="223.52" x2="398.78" y2="223.52" width="0.1524" layer="91"/>
-<label x="401.32" y="223.52" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="1"/>
 <pinref part="D4" gate="G$1" pin="A"/>
