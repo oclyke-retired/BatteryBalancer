@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -1705,22 +1705,6 @@ Switches electronic signals</description>
 <smd name="1" x="0" y="0" dx="1.778" dy="7.62" layer="1" roundness="100"/>
 <text x="-3.81" y="5.08" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-6.35" size="1.778" layer="27">&gt;VALUE</text>
-<polygon width="0.0508" layer="51">
-<vertex x="1.651" y="-2.921" curve="90"/>
-<vertex x="2.54" y="-3.81" curve="90"/>
-<vertex x="3.429" y="-2.921"/>
-<vertex x="3.429" y="2.921" curve="90"/>
-<vertex x="2.54" y="3.81" curve="90"/>
-<vertex x="1.651" y="2.921"/>
-</polygon>
-<polygon width="0.0508" layer="51">
-<vertex x="-3.429" y="-2.921" curve="90"/>
-<vertex x="-2.54" y="-3.81" curve="90"/>
-<vertex x="-1.651" y="-2.921"/>
-<vertex x="-1.651" y="2.921" curve="90"/>
-<vertex x="-2.54" y="3.81" curve="90"/>
-<vertex x="-3.429" y="2.921"/>
-</polygon>
 </package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
@@ -5498,7 +5482,7 @@ goes low. Reset has a pullup to VCC</text>
 </instance>
 <instance part="R1" gate="G$1" x="33.02" y="124.46" rot="R180">
 <attribute name="NAME" x="33.02" y="122.936" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="33.02" y="128.524" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="33.02" y="125.984" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="U7" gate="G$1" x="25.4" y="99.06" rot="R270">
 <attribute name="NAME" x="29.718" y="99.06" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
@@ -5510,7 +5494,7 @@ goes low. Reset has a pullup to VCC</text>
 </instance>
 <instance part="R2" gate="G$1" x="33.02" y="106.68" rot="R180">
 <attribute name="NAME" x="33.02" y="105.156" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="33.02" y="110.744" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="33.02" y="108.204" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="Q3" gate="G$1" x="43.18" y="99.06" rot="MR0">
 <attribute name="NAME" x="38.1" y="99.06" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -5522,7 +5506,7 @@ goes low. Reset has a pullup to VCC</text>
 </instance>
 <instance part="R3" gate="G$1" x="33.02" y="88.9" rot="R180">
 <attribute name="NAME" x="33.02" y="87.376" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="33.02" y="92.964" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="33.02" y="90.424" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="Q4" gate="G$1" x="43.18" y="81.28" rot="MR0">
 <attribute name="NAME" x="38.1" y="81.28" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -5534,7 +5518,7 @@ goes low. Reset has a pullup to VCC</text>
 </instance>
 <instance part="R4" gate="G$1" x="33.02" y="71.12" rot="R180">
 <attribute name="NAME" x="33.02" y="69.596" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="33.02" y="75.184" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="33.02" y="72.644" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="Q5" gate="G$1" x="43.18" y="63.5" rot="MR0">
 <attribute name="NAME" x="38.1" y="63.5" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -5627,16 +5611,16 @@ goes low. Reset has a pullup to VCC</text>
 <attribute name="VALUE" x="161.544" y="46.101" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R17" gate="G$1" x="101.6" y="58.42">
-<attribute name="NAME" x="83.82" y="57.404" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="88.9" y="59.436" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="NAME" x="101.6" y="59.944" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="56.896" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R18" gate="G$1" x="101.6" y="55.88">
-<attribute name="NAME" x="83.82" y="54.864" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="88.9" y="56.896" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="NAME" x="101.6" y="57.404" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="54.356" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R23" gate="G$1" x="101.6" y="43.18">
-<attribute name="NAME" x="83.82" y="42.164" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="88.9" y="44.196" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="NAME" x="101.6" y="44.704" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="41.656" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND17" gate="1" x="327.66" y="170.18">
 <attribute name="VALUE" x="327.66" y="169.926" size="1.778" layer="96" align="top-center"/>
@@ -5690,15 +5674,15 @@ goes low. Reset has a pullup to VCC</text>
 <attribute name="VALUE" x="337.82" y="103.886" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="C21" gate="G$1" x="373.38" y="114.3">
-<attribute name="NAME" x="374.904" y="112.141" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="374.904" y="109.601" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="374.904" y="117.221" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="374.904" y="112.141" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND27" gate="1" x="373.38" y="104.14">
 <attribute name="VALUE" x="373.38" y="103.886" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="C20" gate="G$1" x="368.3" y="114.3">
-<attribute name="NAME" x="362.204" y="117.221" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="359.664" y="119.761" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="369.824" y="117.221" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="369.824" y="112.141" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="327.66" y="182.88">
 <attribute name="VALUE" x="327.66" y="185.674" size="1.778" layer="96" align="bottom-center"/>
@@ -5733,23 +5717,23 @@ goes low. Reset has a pullup to VCC</text>
 </instance>
 <instance part="U5" gate="G$1" x="22.86" y="55.88" rot="R180">
 <attribute name="NAME" x="25.4" y="53.34" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="17.78" y="55.88" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="VALUE" x="25.4" y="58.42" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="U4" gate="G$1" x="22.86" y="73.66" rot="R180">
 <attribute name="NAME" x="25.4" y="71.12" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="17.78" y="73.66" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="VALUE" x="25.4" y="76.2" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="U3" gate="G$1" x="22.86" y="91.44" rot="R180">
 <attribute name="NAME" x="25.4" y="88.9" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="17.78" y="91.44" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="VALUE" x="25.4" y="93.98" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="U2" gate="G$1" x="22.86" y="109.22" rot="R180">
 <attribute name="NAME" x="25.4" y="106.68" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="17.78" y="109.22" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="VALUE" x="25.4" y="111.76" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="U1" gate="G$1" x="22.86" y="127" rot="R180">
 <attribute name="NAME" x="25.4" y="124.46" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="17.78" y="127" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="VALUE" x="25.4" y="129.54" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="D2" gate="G$1" x="58.42" y="218.44" rot="R90">
 <attribute name="NAME" x="56.388" y="215.9" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -5844,8 +5828,8 @@ goes low. Reset has a pullup to VCC</text>
 <attribute name="VALUE" x="360.68" y="130.048" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="C19" gate="G$1" x="355.6" y="111.76">
-<attribute name="NAME" x="357.124" y="109.601" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="357.124" y="107.061" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="357.124" y="114.681" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="357.124" y="109.601" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="Q6" gate="G$1" x="124.46" y="220.98" rot="MR270">
 <attribute name="NAME" x="124.46" y="215.9" size="1.778" layer="95" font="vector" rot="MR270"/>
@@ -5919,18 +5903,18 @@ goes low. Reset has a pullup to VCC</text>
 </instance>
 <instance part="R29" gate="G$1" x="187.96" y="88.9" rot="R90">
 <attribute name="NAME" x="186.436" y="88.9" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="184.404" y="93.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="189.484" y="88.9" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="SUPPLY11" gate="G$1" x="187.96" y="99.06">
 <attribute name="VALUE" x="187.96" y="101.854" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R27" gate="G$1" x="177.8" y="88.9" rot="R90">
 <attribute name="NAME" x="176.276" y="88.9" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="174.244" y="93.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="179.324" y="88.9" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="R28" gate="G$1" x="182.88" y="88.9" rot="R90">
 <attribute name="NAME" x="181.356" y="88.9" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="179.324" y="93.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="184.404" y="88.9" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="C1" gate="G$1" x="15.24" y="167.64">
 <attribute name="NAME" x="16.764" y="170.561" size="1.778" layer="95" font="vector"/>
@@ -5947,16 +5931,20 @@ goes low. Reset has a pullup to VCC</text>
 <attribute name="VALUE" x="25.4" y="154.94" size="1.778" layer="96"/>
 </instance>
 <instance part="R19" gate="G$1" x="101.6" y="53.34">
-<attribute name="NAME" x="83.82" y="52.324" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="NAME" x="101.6" y="54.864" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="51.816" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R20" gate="G$1" x="101.6" y="50.8">
-<attribute name="NAME" x="83.82" y="49.784" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="NAME" x="101.6" y="52.324" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="49.276" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R21" gate="G$1" x="101.6" y="48.26">
-<attribute name="NAME" x="83.82" y="47.244" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="NAME" x="101.6" y="49.784" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="46.736" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R22" gate="G$1" x="101.6" y="45.72">
-<attribute name="NAME" x="83.82" y="44.704" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="NAME" x="101.6" y="47.244" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="44.196" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND8" gate="1" x="93.98" y="30.48">
 <attribute name="VALUE" x="91.44" y="27.94" size="1.778" layer="96"/>
